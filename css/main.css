@@ -3,6 +3,15 @@ body {
   padding: 0;
 }
 
+.container {
+  width: 320px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #282829;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,7 +41,7 @@ body {
 .header__logo {
   width: 20px;
   height: 20px;
-  background: #E74214;
+  background: #e74214;
 }
 
 .header__logo--text {
@@ -56,8 +65,85 @@ body {
   height: 20px;
   color: white;
   font-size: 12px;
-  font-family: Rubik;
+  font-family: "Rubik", serif;
   font-weight: 500;
+  line-height: 27px;
   letter-spacing: 0.12px;
+  word-wrap: break-word;
+}
+
+.header__line {
+  width: 320px;
+  height: 0px;
+  border: #E3E2E2 solid 1px;
+}
+
+.visualization {
+  width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #282829;
+}
+.visualization .visualization__title {
+  text-align: center;
+  color: white;
+  font-size: 41px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  word-wrap: break-word;
+  margin-top: 80px;
+}
+.visualization .visualization__content {
+  width: 264px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+.visualization .visualization__item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.visualization__button {
+  width: 280px;
+  height: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background: #EA4C14;
+  border-radius: 6px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.visualization__button--text {
+  color: white;
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: 400;
   word-wrap: break-word;
 }/*# sourceMappingURL=main.css.map */
