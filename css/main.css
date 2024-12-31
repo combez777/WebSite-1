@@ -183,7 +183,7 @@ body {
   width: 50px;
   height: 210px;
   background: #1a1a1a;
-  left: 10px;
+  left: 18px;
   top: 40px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 6px;
@@ -213,4 +213,51 @@ body {
           writing-mode: tb-rl;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.services {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.services__list {
+  width: 280px;
+  height: 70px;
+  background: #1A1A1A;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 3px;
+}
+.services__list:last-child {
+  margin-bottom: 20px;
+}
+.services__list:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.services__list--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 160px;
+  color: #EFEFEF;
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.services__list--image {
+  margin-right: 12px;
 }/*# sourceMappingURL=main.css.map */
