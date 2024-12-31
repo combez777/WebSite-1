@@ -168,6 +168,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .slider {
@@ -178,11 +180,11 @@ body {
 }
 
 .frame {
-  width: 40px;
+  width: 50px;
   height: 210px;
   background: #1a1a1a;
   left: 10px;
-  top: 20px;
+  top: 40px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 6px;
   position: absolute;
