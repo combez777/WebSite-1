@@ -1,3 +1,12 @@
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -296,4 +305,32 @@ body {
 .discount__line {
   height: 0px;
   border: 1px #e2e1e1 solid;
+}
+
+.sales {
+  background: #171719;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 0px;
+}
+
+.sales__text {
+  width: 280px;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-family: "Oswald", serif;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.28px;
+  word-wrap: break-word;
+  margin-top: 30px;
 }/*# sourceMappingURL=main.css.map */
