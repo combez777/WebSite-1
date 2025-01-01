@@ -1,7 +1,6 @@
 .services {
-   
-    padding-left: 20px;
-    padding-right: 20px;
+   padding: 0;
+   margin: 0;
 }
 
 .services__list {
@@ -12,10 +11,8 @@
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 3px;
-    &:last-child {
-        margin-bottom: 20px;
-    }
+
+   
     &:not(:last-child) {
         margin-bottom: 10px;
     }
@@ -28,7 +25,7 @@ justify-content: start;
     width: 160px; 
     color: #EFEFEF; 
     font-size: 13px; 
-    font-family: Roboto; 
+    font-family: "Roboto", serif;
     font-weight: 400; 
     line-height: 21px; 
     word-wrap: break-word;

@@ -1,9 +1,8 @@
 .visualization {
-  width: 320px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #282829;
-
+}
   .visualization__title {
     text-align: center;
     color: white;
@@ -20,7 +19,7 @@
     text-align: center;
     color: white;
     font-size: 13px;
-    font-family: Roboto;
+    font-family: "Roboto", serif;
     font-weight: 400;
     line-height: 21px;
     word-wrap: break-word;
@@ -34,7 +33,7 @@
     gap: 10px;
     display: flex;
   }
-}
+
 
 .visualization__button {
   width: 280px;
@@ -52,7 +51,7 @@
 .visualization__button--text {
   color: white;
   font-size: 13px;
-  font-family: Roboto;
+  font-family: "Roboto", serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -63,7 +62,7 @@
   position: relative;
   justify-content: center;
   padding-top: 20px;
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .slider {
@@ -91,7 +90,7 @@
   display: flex;
   color: white;
   font-size: 13px;
-  font-family: Roboto;
+  font-family: "Roboto", serif;
   font-weight: 400;
   word-wrap: break-word;
   writing-mode: tb-rl;
