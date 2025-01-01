@@ -224,7 +224,7 @@ body {
 .services__list {
   width: 280px;
   height: 70px;
-  background: #1A1A1A;
+  background: #1a1a1a;
   border-radius: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,7 +247,7 @@ body {
       -ms-flex-pack: start;
           justify-content: start;
   width: 160px;
-  color: #EFEFEF;
+  color: #efefef;
   font-size: 13px;
   font-family: "Roboto", serif;
   font-weight: 400;
@@ -294,5 +294,5 @@ body {
 
 .discount__line {
   height: 0px;
-  border: 1px #E2E1E1 solid;
+  border: 1px #e2e1e1 solid;
 }/*# sourceMappingURL=main.css.map */
