@@ -1,6 +1,5 @@
 .discount {
-  padding-left: 25px;
-  padding-right: 25px;
+ padding: 0px 10px;
   margin-top: 40px;
  
 }
@@ -13,14 +12,15 @@
   font-family: "Oswald", serif;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0.2px;
   word-wrap: break-word;
   padding: 20px 0px;
 }
 
 .discount__list--text-first {
   color: #ea4c14;
-}
+    margin-bottom: 7px;
+  }
+
 
 .discount__list--text-second {
   color: white;
