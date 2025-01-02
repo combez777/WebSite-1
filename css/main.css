@@ -368,14 +368,15 @@ body {
   line-height: 21px;
   word-wrap: break-word;
   margin-bottom: 14px;
+  gap: 5px;
 }
 .development__content:hover, .development__content:focus {
   color: #e74214;
   fill: #e74214;
 }
-.development__content:active {
-  color: #e74214;
-  fill: #e74214;
+.development__content:active .development__arrow {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .development__button {

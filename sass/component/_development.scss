@@ -22,16 +22,17 @@
   line-height: 21px;
   word-wrap: break-word;
   margin-bottom: 14px;
+  gap: 5px;
 
   &:hover,
   &:focus {
     color: #e74214;
     fill: #e74214;
   }
-
   &:active {
-    color: #e74214;
-    fill: #e74214;
+   .development__arrow {
+      transform: rotate(90deg);
+    }
   }
 }
 
