@@ -14,13 +14,19 @@
 }
 
 .development__arrow {
-    stroke:white;
-    fill: white;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;   
 }
 
+
+
 .development__content {
+    display: flex;
+    align-items: center;
     width: 261px; 
-    color: #EFEFEF; 
+    color: #EFEFEF;
+    fill: white;
     font-size: 13px; 
     font-family: Roboto; 
     font-weight: 600; 
@@ -28,13 +34,19 @@
     word-wrap: break-word;
     margin-bottom: 14px;
 
-    img {
-        margin-right: 10px;
-        &:hover{
-            transform: rotate(90deg);
-        }
+    &:hover, &:focus {
+        color: #E74214;
+        fill: #E74214;
     }
+
+    &:active {
+        color: #E74214;
+        fill: #E74214;
+    }
+   
 }
+
+
 
 .development__button {
     width: 280px; 
@@ -49,6 +61,12 @@
     display: inline-flex;
     background-color: rgba(28,28,28,0);
     margin-bottom: 37px;
+    cursor: pointer;
+
+    &:hover, &:focus {
+        background-color: #E74214;
+        border: 1px #E74214 solid;
+    }
     
 }
 

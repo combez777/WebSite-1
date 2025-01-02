@@ -35,16 +35,24 @@
 }
 
 .visualization__button {
-  width: 280px;
-  height: 50px;
-  padding-left: 35px;
-  padding-right: 35px;
-  background: #ea4c14;
-  border-radius: 6px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  display: inline-flex;
+  width: 280px; 
+    height: 50px; 
+    padding-left: 35px; 
+    padding-right: 35px; 
+    border-radius: 6px; 
+    border: 1px #F5F5F5 solid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+    background-color: rgba(28,28,28,0);
+    margin-bottom: 37px;
+    cursor: pointer;
+
+    &:hover, &:focus {
+        background-color: #E74214;
+        border: 1px #E74214 solid;
+    }
 }
 
 .visualization__button--text {
