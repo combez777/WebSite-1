@@ -146,7 +146,7 @@ body {
   padding-left: 35px;
   padding-right: 35px;
   border-radius: 6px;
-  border: 1px #F5F5F5 solid;
+  border: 1px #f5f5f5 solid;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -162,8 +162,8 @@ body {
   cursor: pointer;
 }
 .visualization__button:hover, .visualization__button:focus {
-  background-color: #E74214;
-  border: 1px #E74214 solid;
+  background-color: #e74214;
+  border: 1px #e74214 solid;
 }
 
 .visualization__button--text {
@@ -343,7 +343,7 @@ body {
 }
 
 .development--title {
-  color: #EFEFEF;
+  color: #efefef;
   text-transform: uppercase;
   font-size: 15px;
   font-family: "Oswald", serif;
@@ -356,21 +356,11 @@ body {
   text-align: center;
 }
 
-.development__arrow {
-  cursor: pointer;
-  width: 15px;
-  height: 15px;
-}
-
 .development__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 261px;
-  color: #EFEFEF;
+  color: #efefef;
   fill: white;
   font-size: 13px;
   font-family: Roboto;
@@ -380,12 +370,12 @@ body {
   margin-bottom: 14px;
 }
 .development__content:hover, .development__content:focus {
-  color: #E74214;
-  fill: #E74214;
+  color: #e74214;
+  fill: #e74214;
 }
 .development__content:active {
-  color: #E74214;
-  fill: #E74214;
+  color: #e74214;
+  fill: #e74214;
 }
 
 .development__button {
@@ -394,7 +384,7 @@ body {
   padding-left: 35px;
   padding-right: 35px;
   border-radius: 6px;
-  border: 1px #F5F5F5 solid;
+  border: 1px #f5f5f5 solid;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -405,13 +395,13 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background-color: rgba(28, 28, 28, 0);
+  background-color: rgba(255, 255, 255, 0);
   margin-bottom: 37px;
   cursor: pointer;
 }
 .development__button:hover, .development__button:focus {
-  background-color: #E74214;
-  border: 1px #E74214 solid;
+  background-color: #e74214;
+  border: 1px #e74214 solid;
 }
 
 .development__button--text {
