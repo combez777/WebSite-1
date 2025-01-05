@@ -1,0 +1,31 @@
+/* Group 668 */
+
+position: absolute;
+width: 240.92px;
+height: 0.92px;
+left: 40px;
+top: 644px;
+
+
+
+/* Line 82 */
+
+position: absolute;
+width: 240px;
+height: 0px;
+left: 40.92px;
+top: 644px;
+
+border: 1px solid #FFFFFF;
+
+
+/* Line 83 */
+
+position: absolute;
+width: 40px;
+height: 0px;
+left: 40px;
+top: 644.92px;
+
+/* Orange */
+border: 3px solid #EA4C14;
