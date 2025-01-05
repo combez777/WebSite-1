@@ -16,6 +16,10 @@
   &:not(:last-child) {
     margin-bottom: 10px;
   }
+
+  &:hover,:focus {
+    border: 1px #e74214 solid;
+  }
 }
 
 .services__list--text {
